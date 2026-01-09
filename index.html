@@ -1,0 +1,1399 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Primary Meta Tags for SEO -->
+    <title>Smart Scheduler Pro | Digital Signage & Automated Playback Software for Windows</title>
+    <meta name="description" content="Professional Windows digital signage software for automated scheduling, video playback, and emergency broadcast systems. Perfect for schools, retail stores, and corporate communications.">
+    <meta name="keywords" content="digital signage software, scheduled playback software, Windows media scheduler, automated school bell system, retail background music, emergency broadcast software, video playlist software, digital signage player, content management system, video loop software">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+<<<<<<< HEAD
+    <meta property="og:title" content="PlayScheduler - Smart Automated Music & Video Broadcasting">
+=======
+    <meta property="og:title" content="Smart Scheduler Pro - Professional Digital Signage Software">
+>>>>>>> 753751b8ac84c9201e19685a81bcbcc6aee48d96
+    <meta property="og:description" content="Automate your video and audio playback with our professional Windows scheduling software.">
+    
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+<<<<<<< HEAD
+    <meta name="twitter:title" content="PlayScheduler | Smart Automated Music & Video Broadcasting">
+    <meta name="twitter:description" content="Professional scheduled playback solution for Windows.">
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://www.smartschedule365.com/">
+=======
+    <meta name="twitter:title" content="Smart Scheduler Pro - Digital Signage Software">
+    <meta name="twitter:description" content="Professional scheduled playback solution for Windows.">
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://www.smartschedulerpro.com/">
+>>>>>>> 753751b8ac84c9201e19685a81bcbcc6aee48d96
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Open+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    
+    <style>
+        :root {
+            --primary-blue: #1a6dcc;
+            --dark-blue: #0d4d9c;
+            --accent-yellow: #ffc107;
+            --success-green: #28a745;
+            --light-gray: #f8f9fa;
+            --medium-gray: #6c757d;
+            --dark-gray: #343a40;
+            --white: #ffffff;
+            --border-radius: 8px;
+            --box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+            --transition: all 0.3s ease;
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Inter', 'Open Sans', sans-serif;
+            line-height: 1.6;
+            color: var(--dark-gray);
+            background-color: var(--white);
+            overflow-x: hidden;
+        }
+        
+        h1, h2, h3, h4 {
+            font-family: 'Inter', sans-serif;
+            font-weight: 700;
+            line-height: 1.2;
+            margin-bottom: 1rem;
+        }
+        
+        .container {
+            width: 100%;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        
+        /* Header - Professional Modern Design */
+        header {
+            background-color: var(--white);
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 1000;
+        }
+        
+        .header-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px 0;
+        }
+        
+        .logo {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            text-decoration: none;
+        }
+        
+        .logo-icon {
+            background-color: var(--primary-blue);
+            color: var(--white);
+            width: 40px;
+            height: 40px;
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.5rem;
+        }
+        
+        .logo-text h1 {
+            font-size: 1.5rem;
+            margin-bottom: 2px;
+            color: var(--dark-blue);
+        }
+        
+        .logo-text span {
+            font-size: 0.85rem;
+            color: var(--medium-gray);
+            font-weight: 500;
+        }
+        
+        nav ul {
+            display: flex;
+            list-style: none;
+            gap: 30px;
+        }
+        
+        nav a {
+            text-decoration: none;
+            color: var(--dark-gray);
+            font-weight: 600;
+            font-size: 0.95rem;
+            padding: 8px 0;
+            position: relative;
+            transition: var(--transition);
+        }
+        
+        nav a:hover {
+            color: var(--primary-blue);
+        }
+        
+        nav a.active {
+            color: var(--primary-blue);
+        }
+        
+        nav a.active::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            height: 2px;
+            background-color: var(--primary-blue);
+        }
+        
+        .header-cta {
+            display: flex;
+            gap: 15px;
+            align-items: center;
+        }
+        
+        .btn-outline {
+            padding: 10px 24px;
+            background-color: transparent;
+            border: 2px solid var(--primary-blue);
+            color: var(--primary-blue);
+            border-radius: var(--border-radius);
+            font-weight: 600;
+            text-decoration: none;
+            transition: var(--transition);
+            font-size: 0.95rem;
+        }
+        
+        .btn-outline:hover {
+            background-color: var(--primary-blue);
+            color: var(--white);
+        }
+        
+        .btn-primary {
+            padding: 10px 24px;
+            background-color: var(--primary-blue);
+            color: var(--white);
+            border: 2px solid var(--primary-blue);
+            border-radius: var(--border-radius);
+            font-weight: 600;
+            text-decoration: none;
+            transition: var(--transition);
+            font-size: 0.95rem;
+        }
+        
+        .btn-primary:hover {
+            background-color: var(--dark-blue);
+            border-color: var(--dark-blue);
+        }
+        
+        /* Hero Section - Modern Clean Design */
+        .hero {
+            padding: 160px 0 100px;
+            background: linear-gradient(135deg, #f5f7fa 0%, #e4e8f0 100%);
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            right: -20%;
+            width: 800px;
+            height: 800px;
+            background: radial-gradient(circle, rgba(26, 109, 204, 0.05) 0%, rgba(26, 109, 204, 0) 70%);
+            border-radius: 50%;
+        }
+        
+        .hero-content {
+            max-width: 700px;
+            position: relative;
+            z-index: 1;
+        }
+        
+        .hero h1 {
+            font-size: 3.5rem;
+            color: var(--dark-gray);
+            margin-bottom: 1.5rem;
+            line-height: 1.1;
+        }
+        
+        .hero h1 span {
+            color: var(--primary-blue);
+        }
+        
+        .hero-subtitle {
+            font-size: 1.25rem;
+            color: var(--medium-gray);
+            margin-bottom: 2rem;
+            max-width: 600px;
+        }
+        
+        .feature-highlights {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+            margin-bottom: 3rem;
+        }
+        
+        .feature-tag {
+            background-color: var(--white);
+            border: 1px solid #e0e4e8;
+            padding: 8px 18px;
+            border-radius: 50px;
+            font-size: 0.9rem;
+            font-weight: 500;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+        }
+        
+        .hero-cta {
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+        
+        .btn-large {
+            padding: 16px 36px;
+            font-size: 1.1rem;
+            font-weight: 600;
+        }
+        
+        .btn-success {
+            background-color: var(--success-green);
+            border-color: var(--success-green);
+        }
+        
+        .btn-success:hover {
+            background-color: #218838;
+            border-color: #218838;
+        }
+        
+        .hero-image {
+            position: absolute;
+            right: 0;
+            top: 50%;
+            transform: translateY(-50%);
+            width: 45%;
+            max-width: 600px;
+        }
+        
+        .hero-image img {
+            width: 100%;
+            border-radius: 12px;
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+        }
+        
+        /* Features Section */
+        .section {
+            padding: 100px 0;
+        }
+        
+        .section-header {
+            text-align: center;
+            max-width: 700px;
+            margin: 0 auto 60px;
+        }
+        
+        .section-title {
+            font-size: 2.5rem;
+            color: var(--dark-gray);
+            margin-bottom: 1rem;
+        }
+        
+        .section-subtitle {
+            font-size: 1.1rem;
+            color: var(--medium-gray);
+        }
+        
+        .features-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+            margin-bottom: 80px;
+        }
+        
+        .feature-card {
+            background-color: var(--white);
+            border-radius: var(--border-radius);
+            padding: 40px 30px;
+            box-shadow: var(--box-shadow);
+            transition: var(--transition);
+            border: 1px solid #f0f0f0;
+        }
+        
+        .feature-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+        }
+        
+        .feature-icon {
+            width: 70px;
+            height: 70px;
+            background-color: rgba(26, 109, 204, 0.1);
+            border-radius: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 25px;
+        }
+        
+        .feature-icon i {
+            font-size: 1.8rem;
+            color: var(--primary-blue);
+        }
+        
+        .feature-card h3 {
+            font-size: 1.5rem;
+            margin-bottom: 15px;
+            color: var(--dark-gray);
+        }
+        
+        .feature-card p {
+            color: var(--medium-gray);
+            margin-bottom: 20px;
+        }
+        
+        .feature-list {
+            list-style: none;
+        }
+        
+        .feature-list li {
+            padding: 8px 0;
+            color: var(--medium-gray);
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        
+        .feature-list li i {
+            color: var(--success-green);
+            font-size: 0.9rem;
+        }
+        
+        /* Applications Section */
+        .applications {
+            background-color: #f8fafc;
+        }
+        
+        .tabs {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 40px;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+        
+        .tab {
+            padding: 12px 28px;
+            background-color: var(--white);
+            border: 1px solid #e0e4e8;
+            border-radius: var(--border-radius);
+            cursor: pointer;
+            font-weight: 600;
+            color: var(--dark-gray);
+            transition: var(--transition);
+        }
+        
+        .tab.active {
+            background-color: var(--primary-blue);
+            color: var(--white);
+            border-color: var(--primary-blue);
+        }
+        
+        .tab:hover:not(.active) {
+            border-color: var(--primary-blue);
+            color: var(--primary-blue);
+        }
+        
+        .tab-content {
+            background-color: var(--white);
+            border-radius: var(--border-radius);
+            padding: 50px;
+            box-shadow: var(--box-shadow);
+        }
+        
+        .tab-content h3 {
+            font-size: 2rem;
+            color: var(--dark-gray);
+            margin-bottom: 20px;
+        }
+        
+        .tab-content p {
+            color: var(--medium-gray);
+            margin-bottom: 25px;
+            font-size: 1.1rem;
+        }
+        
+        .tab-content ul {
+            margin-left: 20px;
+            margin-bottom: 30px;
+        }
+        
+        .tab-content li {
+            color: var(--medium-gray);
+            margin-bottom: 10px;
+            font-size: 1.05rem;
+        }
+        
+        .tab-content strong {
+            color: var(--dark-gray);
+        }
+        
+        /* Testimonials */
+        .testimonials {
+            background-color: var(--dark-blue);
+            color: var(--white);
+        }
+        
+        .testimonials .section-title {
+            color: var(--white);
+        }
+        
+        .testimonials .section-subtitle {
+            color: rgba(255, 255, 255, 0.8);
+        }
+        
+        .testimonial-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+        }
+        
+        .testimonial-card {
+            background-color: rgba(255, 255, 255, 0.1);
+            border-radius: var(--border-radius);
+            padding: 30px;
+            border: 1px solid rgba(255, 255, 255, 0.2);
+        }
+        
+        .testimonial-text {
+            font-style: italic;
+            margin-bottom: 20px;
+            line-height: 1.7;
+        }
+        
+        .testimonial-author {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+        
+        .author-avatar {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            background-color: var(--white);
+            color: var(--primary-blue);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+        }
+        
+        .author-info h4 {
+            font-size: 1.1rem;
+            margin-bottom: 5px;
+        }
+        
+        .author-info p {
+            font-size: 0.9rem;
+            opacity: 0.8;
+        }
+        
+        /* Download CTA */
+        .download-cta {
+            text-align: center;
+            padding: 80px 0;
+            background: linear-gradient(135deg, var(--primary-blue) 0%, var(--dark-blue) 100%);
+            color: var(--white);
+        }
+        
+        .download-cta h2 {
+            font-size: 2.8rem;
+            margin-bottom: 20px;
+        }
+        
+        .download-cta p {
+            font-size: 1.2rem;
+            max-width: 700px;
+            margin: 0 auto 40px;
+            opacity: 0.9;
+        }
+        
+        .cta-buttons {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+        
+        .btn-white {
+            background-color: var(--white);
+            color: var(--primary-blue);
+            border: 2px solid var(--white);
+        }
+        
+        .btn-white:hover {
+            background-color: transparent;
+            color: var(--white);
+        }
+        
+        /* FAQ */
+        .faq-container {
+            max-width: 900px;
+            margin: 0 auto;
+        }
+        
+        .faq-item {
+            border-bottom: 1px solid #e0e4e8;
+            padding: 25px 0;
+        }
+        
+        .faq-question {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            cursor: pointer;
+        }
+        
+        .faq-question h3 {
+            font-size: 1.3rem;
+            margin-bottom: 0;
+            color: var(--dark-gray);
+        }
+        
+        .faq-icon {
+            color: var(--primary-blue);
+            transition: var(--transition);
+        }
+        
+        .faq-answer {
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.3s ease;
+        }
+        
+        .faq-answer.active {
+            max-height: 500px;
+            margin-top: 20px;
+        }
+        
+        .faq-answer p {
+            color: var(--medium-gray);
+            line-height: 1.7;
+        }
+        
+        /* Footer */
+        footer {
+            background-color: #1a1f36;
+            color: var(--white);
+            padding: 80px 0 30px;
+        }
+        
+        .footer-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 50px;
+            margin-bottom: 50px;
+        }
+        
+        .footer-logo {
+            font-size: 1.8rem;
+            font-weight: 700;
+            margin-bottom: 15px;
+            color: var(--white);
+        }
+        
+        .footer-description {
+            color: #a0aec0;
+            margin-bottom: 25px;
+            line-height: 1.7;
+        }
+        
+        .footer-heading {
+            font-size: 1.2rem;
+            margin-bottom: 25px;
+            color: var(--white);
+        }
+        
+        .footer-links {
+            list-style: none;
+        }
+        
+        .footer-links li {
+            margin-bottom: 12px;
+        }
+        
+        .footer-links a {
+            color: #a0aec0;
+            text-decoration: none;
+            transition: var(--transition);
+        }
+        
+        .footer-links a:hover {
+            color: var(--white);
+        }
+        
+        .contact-info {
+            list-style: none;
+        }
+        
+        .contact-info li {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            margin-bottom: 15px;
+            color: #a0aec0;
+        }
+        
+        .contact-info i {
+            color: var(--accent-yellow);
+            width: 20px;
+        }
+        
+        .social-links {
+            display: flex;
+            gap: 15px;
+            margin-top: 20px;
+        }
+        
+        .social-icon {
+            width: 40px;
+            height: 40px;
+            background-color: rgba(255, 255, 255, 0.1);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: var(--white);
+            text-decoration: none;
+            transition: var(--transition);
+        }
+        
+        .social-icon:hover {
+            background-color: var(--primary-blue);
+            transform: translateY(-3px);
+        }
+        
+        .footer-bottom {
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+            padding-top: 30px;
+            text-align: center;
+            color: #a0aec0;
+            font-size: 0.9rem;
+        }
+        
+        /* Responsive */
+        @media (max-width: 1024px) {
+            .hero-image {
+                display: none;
+            }
+            
+            .hero-content {
+                max-width: 100%;
+                text-align: center;
+            }
+            
+            .hero h1 {
+                font-size: 2.8rem;
+            }
+        }
+        
+        @media (max-width: 768px) {
+            .header-container {
+                flex-direction: column;
+                gap: 20px;
+            }
+            
+            nav ul {
+                flex-wrap: wrap;
+                justify-content: center;
+                gap: 20px;
+            }
+            
+            .hero {
+                padding: 180px 0 80px;
+            }
+            
+            .hero h1 {
+                font-size: 2.3rem;
+            }
+            
+            .section-title {
+                font-size: 2rem;
+            }
+            
+            .hero-cta, .cta-buttons {
+                flex-direction: column;
+                align-items: center;
+            }
+            
+            .tab-content {
+                padding: 30px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container header-container">
+            <a href="#" class="logo">
+                <div class="logo-icon">
+                    <i class="fas fa-broadcast-tower"></i>
+                </div>
+                <div class="logo-text">
+<<<<<<< HEAD
+                    <h1>PlayScheduler</h1>
+=======
+                    <h1>Smart Scheduler Pro</h1>
+>>>>>>> 753751b8ac84c9201e19685a81bcbcc6aee48d96
+                    <span>Digital Signage & Playback Software</span>
+                </div>
+            </a>
+            
+            <nav>
+                <ul>
+                    <li><a href="#features" class="active">Features</a></li>
+                    <li><a href="#applications">Applications</a></li>
+                    <li><a href="#testimonials">Testimonials</a></li>
+                    <li><a href="purchase.html">Pricing</a></li>
+                    <li><a href="#faq">FAQ</a></li>
+                    <li><a href="#download">Download</a></li>
+                </ul>
+            </nav>
+            
+            <div class="header-cta">
+<<<<<<< HEAD
+                <a href="https://www.dingshibaofang.com/files/PlaySchedulerSetup-x64.exe" class="btn-outline">Try Free</a>
+=======
+                <a href="#download" class="btn-outline">Try Free</a>
+>>>>>>> 753751b8ac84c9201e19685a81bcbcc6aee48d96
+                <a href="purchase.html" class="btn-primary">Buy Now</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+<<<<<<< HEAD
+                <h1>Automate Your Digital Signage & Media Playback with <span>PlayScheduler</span></h1>
+=======
+                <h1>Automate Your Digital Signage & Media Playback with <span>Smart Scheduler Pro</span></h1>
+>>>>>>> 753751b8ac84c9201e19685a81bcbcc6aee48d96
+                <p class="hero-subtitle">Professional Windows software for scheduled video playback, automated school bell systems, retail background music, and emergency broadcast solutions.</p>
+                
+                <div class="feature-highlights">
+                    <span class="feature-tag">Automated Scheduling</span>
+                    <span class="feature-tag">Digital Signage</span>
+                    <span class="feature-tag">Emergency Broadcast</span>
+                    <span class="feature-tag">Video Playlists</span>
+                    <span class="feature-tag">Background Music</span>
+                    <span class="feature-tag">Multi-Format Support</span>
+                </div>
+                
+                <div class="hero-cta">
+<<<<<<< HEAD
+                    <a href="https://www.dingshibaofang.com/files/PlaySchedulerSetup-x64.exe" class="btn-primary btn-large">
+                        <i class="fas fa-download"></i> Download 7-Day Free Trial
+=======
+                    <a href="#download" class="btn-primary btn-large">
+                        <i class="fas fa-download"></i> Download 30-Day Free Trial
+>>>>>>> 753751b8ac84c9201e19685a81bcbcc6aee48d96
+                    </a>
+                    <a href="purchase.html" class="btn-success btn-primary btn-large">
+                        <i class="fas fa-shopping-cart"></i> Buy Now - $84 Lifetime License
+                    </a>
+                </div>
+            </div>
+            
+            <div class="hero-image">
+                <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80" 
+                     alt="Smart Scheduler Pro digital signage software interface on computer screen">
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Professional Digital Signage Features</h2>
+                <p class="section-subtitle">Powerful scheduling and playback capabilities for Windows-based digital signage systems</p>
+            </div>
+            
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-calendar-alt"></i>
+                    </div>
+                    <h3>Advanced Scheduling</h3>
+                    <p>Create precise daily, weekly, or custom playback schedules for unattended operation. Perfect for automated school bells and retail hours.</p>
+                    <ul class="feature-list">
+                        <li><i class="fas fa-check"></i> Complex time-based scheduling</li>
+                        <li><i class="fas fa-check"></i> Holiday and exception rules</li>
+                        <li><i class="fas fa-check"></i> Multiple timezone support</li>
+                        <li><i class="fas fa-check"></i> Recurring and one-time events</li>
+                    </ul>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-play-circle"></i>
+                    </div>
+                    <h3>Universal Media Support</h3>
+                    <p>Play videos, audio files, images, live streams, and PowerPoint presentations. Supports all major formats and codecs.</p>
+                    <ul class="feature-list">
+                        <li><i class="fas fa-check"></i> MP4, AVI, MOV, MP3, WAV</li>
+                        <li><i class="fas fa-check"></i> YouTube, Vimeo, live streams</li>
+                        <li><i class="fas fa-check"></i> Image slideshows (JPG, PNG)</li>
+                        <li><i class="fas fa-check"></i> PowerPoint presentations</li>
+                    </ul>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-tv"></i>
+                    </div>
+                    <h3>Digital Signage Ready</h3>
+                    <p>Optimized for digital displays, kiosks, and multi-screen setups. Full-screen playback with no distractions.</p>
+                    <ul class="feature-list">
+                        <li><i class="fas fa-check"></i> Multi-monitor support</li>
+                        <li><i class="fas fa-check"></i> 4K and HD playback</li>
+                        <li><i class="fas fa-check"></i> Portrait and landscape modes</li>
+                        <li><i class="fas fa-check"></i> Remote content management</li>
+                    </ul>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-exclamation-triangle"></i>
+                    </div>
+                    <h3>Emergency Broadcast</h3>
+                    <p>Immediately interrupt scheduled content with emergency alerts, safety messages, or important announcements.</p>
+                    <ul class="feature-list">
+                        <li><i class="fas fa-check"></i> Priority override system</li>
+                        <li><i class="fas fa-check"></i> Pre-recorded emergency messages</li>
+                        <li><i class="fas fa-check"></i> Automatic resume after alert</li>
+                        <li><i class="fas fa-check"></i> Remote trigger capability</li>
+                    </ul>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-music"></i>
+                    </div>
+                    <h3>Background Music System</h3>
+                    <p>Perfect for retail stores, restaurants, and offices. Schedule music by time of day, day of week, or special events.</p>
+                    <ul class="feature-list">
+                        <li><i class="fas fa-check"></i> Volume normalization</li>
+                        <li><i class="fas fa-check"></i> Crossfade between tracks</li>
+                        <li><i class="fas fa-check"></i> Zone-based audio control</li>
+                        <li><i class="fas fa-check"></i> Royalty-free music library</li>
+                    </ul>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-school"></i>
+                    </div>
+                    <h3>School Bell & PA System</h3>
+                    <p>Automate school bells, class changes, announcements, and emergency drills with precision timing.</p>
+                    <ul class="feature-list">
+                        <li><i class="fas fa-check"></i> Period-based scheduling</li>
+                        <li><i class="fas fa-check"></i> Different schedules by day</li>
+                        <li><i class="fas fa-check"></i> Special event overrides</li>
+                        <li><i class="fas fa-check"></i> Fire drill integration</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div style="text-align: center; margin-top: 40px;">
+<<<<<<< HEAD
+                <a href="https://www.dingshibaofang.com/files/PlaySchedulerSetup-x64.exe" class="btn-primary btn-large">
+                    <i class="fas fa-download"></i> Try All Features Free for 7 Days
+=======
+                <a href="#download" class="btn-primary btn-large">
+                    <i class="fas fa-download"></i> Try All Features Free for 30 Days
+>>>>>>> 753751b8ac84c9201e19685a81bcbcc6aee48d96
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Applications Section -->
+    <section id="applications" class="section applications">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Industry Applications</h2>
+                <p class="section-subtitle">Used by organizations worldwide for reliable media scheduling and playback</p>
+            </div>
+            
+            <div class="tabs">
+                <div class="tab active" data-tab="education">Education</div>
+                <div class="tab" data-tab="retail">Retail & Hospitality</div>
+                <div class="tab" data-tab="corporate">Corporate</div>
+                <div class="tab" data-tab="healthcare">Healthcare</div>
+            </div>
+            
+            <div class="tab-content" id="education-content">
+                <h3>School & University Digital Signage Solutions</h3>
+                <p>Smart Scheduler Pro is the perfect solution for educational institutions needing reliable automated bell systems, campus-wide announcements, and digital signage for wayfinding and information dissemination.</p>
+                
+                <ul>
+                    <li><strong>Automated Bell Systems:</strong> Replace manual bell ringing with precise automated scheduling</li>
+                    <li><strong>Campus Digital Signage:</strong> Display announcements, events, and emergency alerts on screens throughout campus</li>
+                    <li><strong>Classroom Media:</strong> Schedule educational videos and presentations to play automatically during class time</li>
+                    <li><strong>Emergency Preparedness:</strong> Instantly broadcast lockdown procedures or safety announcements</li>
+                    <li><strong>Sports Facilities:</strong> Control scoreboards, play background music, and make announcements in gyms and stadiums</li>
+                    <li><strong>Library Systems:</strong> Quiet hours announcements and event notifications</li>
+                </ul>
+                
+                <p><strong>SEO Keywords:</strong> school bell system software, campus digital signage, automated school bell, classroom media player, educational technology software, school PA system automation</p>
+                
+                <div style="text-align: center; margin-top: 30px;">
+<<<<<<< HEAD
+                    <a href="https://www.dingshibaofang.com/files/PlaySchedulerSetup-x64.exe" class="btn-primary">
+=======
+                    <a href="#download" class="btn-primary">
+>>>>>>> 753751b8ac84c9201e19685a81bcbcc6aee48d96
+                        <i class="fas fa-download"></i> Download Education Edition Trial
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section id="testimonials" class="section testimonials">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Trusted by Organizations Worldwide</h2>
+                <p class="section-subtitle">See what our customers say about Smart Scheduler Pro</p>
+            </div>
+            
+            <div class="testimonial-grid">
+                <div class="testimonial-card">
+                    <p class="testimonial-text">"We replaced our old bell system with Smart Scheduler Pro and it's been flawless. The automated scheduling has saved us countless hours and the emergency broadcast feature gives us peace of mind."</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">MJ</div>
+                        <div class="author-info">
+                            <h4>Michael Johnson</h4>
+                            <p>IT Director, Springfield High School</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="testimonial-card">
+                    <p class="testimonial-text">"Our retail chain uses Smart Scheduler Pro in all 12 locations. The background music scheduling by time of day has improved customer experience, and the promotional video loops have increased sales."</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">SR</div>
+                        <div class="author-info">
+                            <h4>Sarah Roberts</h4>
+                            <p>Operations Manager, Urban Retail Group</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="testimonial-card">
+                    <p class="testimonial-text">"As a corporate communications manager, I need reliable digital signage across our offices. Smart Scheduler Pro handles everything from daily news feeds to emergency announcements seamlessly."</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">DC</div>
+                        <div class="author-info">
+                            <h4>David Chen</h4>
+                            <p>Communications Director, TechGlobal Inc.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Download CTA -->
+    <section id="download" class="download-cta">
+        <div class="container">
+            <h2>Ready to Automate Your Media Playback?</h2>
+<<<<<<< HEAD
+            <p>Download the 7-day free trial with all features included. No credit card required. See how PlayScheduler can transform your digital signage and scheduling needs.</p>
+            
+            <div class="cta-buttons">
+                <a href="https://www.dingshibaofang.com/files/PlaySchedulerSetup-x64.exe" class="btn-primary btn-large btn-white">
+=======
+            <p>Download the 30-day free trial with all features included. No credit card required. See how Smart Scheduler Pro can transform your digital signage and scheduling needs.</p>
+            
+            <div class="cta-buttons">
+                <a href="#" class="btn-primary btn-large btn-white">
+>>>>>>> 753751b8ac84c9201e19685a81bcbcc6aee48d96
+                    <i class="fas fa-download"></i> Download Free Trial (Windows 10/11)
+                </a>
+                <a href="purchase.html" class="btn-outline btn-large" style="border-color: white; color: white;">
+                    <i class="fas fa-shopping-cart"></i> Buy Now - $84 Lifetime License
+                </a>
+            </div>
+            
+            <p style="margin-top: 30px; font-size: 0.9rem;">System Requirements: Windows 10/11, 4GB RAM, 500MB disk space</p>
+        </div>
+    </section>
+
+    <!-- FAQ -->
+    <section id="faq" class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Frequently Asked Questions</h2>
+                <p class="section-subtitle">Find answers to common questions about Smart Scheduler Pro</p>
+            </div>
+            
+            <div class="faq-container">
+                <div class="faq-item">
+                    <div class="faq-question" onclick="toggleFaq(this)">
+<<<<<<< HEAD
+                        <h3>Can PlayScheduler replace our school bell system?</h3>
+                        <span class="faq-icon"><i class="fas fa-chevron-down"></i></span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Yes, absolutely. PlayScheduler is widely used as an automated school bell system. You can schedule different bells for different periods, days, and even create special schedules for exams or events. The software provides precise timing and reliable operation.</p>
+=======
+                        <h3>Can Smart Scheduler Pro replace our school bell system?</h3>
+                        <span class="faq-icon"><i class="fas fa-chevron-down"></i></span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Yes, absolutely. Smart Scheduler Pro is widely used as an automated school bell system. You can schedule different bells for different periods, days, and even create special schedules for exams or events. The software provides precise timing and reliable operation.</p>
+>>>>>>> 753751b8ac84c9201e19685a81bcbcc6aee48d96
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question" onclick="toggleFaq(this)">
+                        <h3>How does the emergency broadcast feature work?</h3>
+                        <span class="faq-icon"><i class="fas fa-chevron-down"></i></span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>The emergency broadcast feature allows you to immediately interrupt any scheduled content with a priority message. You can trigger it manually from the software interface, via a hotkey, or remotely through network commands. After the emergency message plays, the system automatically returns to the scheduled content.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question" onclick="toggleFaq(this)">
+                        <h3>What media formats does the software support?</h3>
+                        <span class="faq-icon"><i class="fas fa-chevron-down"></i></span>
+                    </div>
+                    <div class="faq-answer">
+<<<<<<< HEAD
+                        <p>PlayScheduler supports all major media formats: Video (MP4, AVI, MOV, WMV), Audio (MP3, WAV, AAC, FLAC), Images (JPG, PNG, GIF), and live streams (RTMP, HLS). It also supports PowerPoint presentations and PDF files for digital signage applications.</p>
+=======
+                        <p>Smart Scheduler Pro supports all major media formats: Video (MP4, AVI, MOV, WMV), Audio (MP3, WAV, AAC, FLAC), Images (JPG, PNG, GIF), and live streams (RTMP, HLS). It also supports PowerPoint presentations and PDF files for digital signage applications.</p>
+>>>>>>> 753751b8ac84c9201e19685a81bcbcc6aee48d96
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question" onclick="toggleFaq(this)">
+                        <h3>Is internet connection required for the software to work?</h3>
+                        <span class="faq-icon"><i class="fas fa-chevron-down"></i></span>
+                    </div>
+                    <div class="faq-answer">
+<<<<<<< HEAD
+                        <p>No, once installed and activated, PlayScheduler works completely offline. All scheduling and playback is handled locally on your Windows PC. Internet is only required for software updates, live stream playback, or if you're using cloud-based content management.</p>
+=======
+                        <p>No, once installed and activated, Smart Scheduler Pro works completely offline. All scheduling and playback is handled locally on your Windows PC. Internet is only required for software updates, live stream playback, or if you're using cloud-based content management.</p>
+>>>>>>> 753751b8ac84c9201e19685a81bcbcc6aee48d96
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question" onclick="toggleFaq(this)">
+                        <h3>What does the lifetime license include?</h3>
+                        <span class="faq-icon"><i class="fas fa-chevron-down"></i></span>
+                    </div>
+                    <div class="faq-answer">
+<<<<<<< HEAD
+                        <p>The $84 lifetime license includes: Permanent use of PlayScheduler on one computer, free minor updates (version 2.x), one year of premium support, and the ability to reinstall on the same computer. Major version upgrades (e.g., 3.0) may require an upgrade fee at a discounted rate.</p>
+=======
+                        <p>The $84 lifetime license includes: Permanent use of Smart Scheduler Pro on one computer, free minor updates (version 2.x), one year of premium support, and the ability to reinstall on the same computer. Major version upgrades (e.g., 3.0) may require an upgrade fee at a discounted rate.</p>
+>>>>>>> 753751b8ac84c9201e19685a81bcbcc6aee48d96
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-about">
+<<<<<<< HEAD
+                    <div class="footer-logo">PlayScheduler</div>
+=======
+                    <div class="footer-logo">Smart Scheduler Pro</div>
+>>>>>>> 753751b8ac84c9201e19685a81bcbcc6aee48d96
+                    <p class="footer-description">Professional Windows software for digital signage, automated scheduling, and media playback. Trusted by schools, retailers, and corporations worldwide since 2018.</p>
+                    
+                    <div class="social-links">
+                        <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-links">
+                    <h3 class="footer-heading">Product</h3>
+                    <ul class="footer-links">
+                        <li><a href="#features">Features</a></li>
+                        <li><a href="#applications">Applications</a></li>
+                        <li><a href="purchase.html">Pricing</a></li>
+                        <li><a href="#download">Download</a></li>
+                        <li><a href="#faq">FAQ</a></li>
+                        <li><a href="#">Release Notes</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-contact">
+                    <h3 class="footer-heading">Company</h3>
+                    <ul class="contact-info">
+                        <li>
+                            <i class="fas fa-map-marker-alt"></i>
+<<<<<<< HEAD
+                            <span>186 Fenghuang Xiqu, Bao'an District, Shenzhen, Guangdong 518101, China</span>
+                        </li>
+                        <li>
+                            <i class="fas fa-phone"></i>
+                            <span>+86 136 3271 6632</span>
+                        </li>
+                        <li>
+                            <i class="fas fa-envelope"></i>
+                            <span>getpdffusion7300@gmail.com</span>
+=======
+                            <span>123 Tech Street, Suite 100<br>San Francisco, CA 94107</span>
+                        </li>
+                        <li>
+                            <i class="fas fa-phone"></i>
+                            <span>+1 (415) 123-4567</span>
+                        </li>
+                        <li>
+                            <i class="fas fa-envelope"></i>
+                            <span>sales@smartschedulerpro.com</span>
+>>>>>>> 753751b8ac84c9201e19685a81bcbcc6aee48d96
+                        </li>
+                        <li>
+                            <i class="fas fa-clock"></i>
+                            <span>Mon-Fri: 9am-6pm PST</span>
+                        </li>
+                    </ul>
+                </div>
+                
+                <div class="footer-links">
+                    <h3 class="footer-heading">Legal</h3>
+                    <ul class="footer-links">
+                        <li><a href="#">Terms of Service</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Cookie Policy</a></li>
+                        <li><a href="#">GDPR Compliance</a></li>
+                        <li><a href="#">Refund Policy</a></li>
+                        <li><a href="#">Security</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+<<<<<<< HEAD
+                <p>&copy; 2023 PlayScheduler. All rights reserved. Digital Signage Software for Windows.</p>
+                <p style="margin-top: 10px;">PlayScheduler is a registered trademark of Tech Solutions Inc.</p>
+=======
+                <p>&copy; 2023 Smart Scheduler Pro. All rights reserved. Digital Signage Software for Windows.</p>
+                <p style="margin-top: 10px;">Smart Scheduler Pro is a registered trademark of Tech Solutions Inc.</p>
+>>>>>>> 753751b8ac84c9201e19685a81bcbcc6aee48d96
+                <p style="margin-top: 10px; font-size: 0.8rem;">
+                    <span style="margin-right: 20px;">Keywords: digital signage software, scheduled playback, automated school bell system, Windows media scheduler, video playlist software, emergency broadcast software, retail background music system</span>
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // FAQ Toggle
+        function toggleFaq(element) {
+            const answer = element.parentElement.querySelector('.faq-answer');
+            const icon = element.querySelector('.faq-icon i');
+            
+            answer.classList.toggle('active');
+            
+            if (answer.classList.contains('active')) {
+                icon.classList.remove('fa-chevron-down');
+                icon.classList.add('fa-chevron-up');
+            } else {
+                icon.classList.remove('fa-chevron-up');
+                icon.classList.add('fa-chevron-down');
+            }
+        }
+        
+        // Tab Switching
+        document.addEventListener('DOMContentLoaded', function() {
+            const tabs = document.querySelectorAll('.tab');
+            const educationContent = document.getElementById('education-content');
+            
+            // Retail content
+            const retailContent = `
+                <h3>Retail & Hospitality Digital Signage</h3>
+                <p>Enhance customer experience with scheduled promotional content, background music, and wayfinding information in retail stores, restaurants, and hotels.</p>
+                
+                <ul>
+                    <li><strong>Background Music Scheduling:</strong> Play different music genres by time of day (morning, afternoon, evening)</li>
+                    <li><strong>Promotional Video Loops:</strong> Display product videos, ads, and special offers on digital screens</li>
+                    <li><strong>Menu Boards:</strong> Dynamic digital menu boards for restaurants with automatic pricing updates</li>
+                    <li><strong>Wayfinding & Information:</strong> Help customers navigate large retail spaces or hotel complexes</li>
+                    <li><strong>Queue Management:</strong> Display wait times and promotional content in waiting areas</li>
+                    <li><strong>Multi-Store Management:</strong> Control content across multiple locations from a central dashboard</li>
+                </ul>
+                
+                <p><strong>SEO Keywords:</strong> retail digital signage software, background music scheduler, in-store media player, restaurant menu board software, retail video display, hospitality digital signage</p>
+                
+                <div style="text-align: center; margin-top: 30px;">
+                    <a href="#download" class="btn-primary">
+                        <i class="fas fa-download"></i> Download Retail Edition Trial
+                    </a>
+                </div>
+            `;
+            
+            // Corporate content
+            const corporateContent = `
+                <h3>Corporate Communications & Digital Signage</h3>
+                <p>Improve internal communications, display real-time information, and create engaging environments in corporate offices, lobbies, and meeting spaces.</p>
+                
+                <ul>
+                    <li><strong>Corporate Communications:</strong> Display company news, announcements, and KPIs on screens throughout the office</li>
+                    <li><strong>Meeting Room Displays:</strong> Show room schedules, upcoming meetings, and welcome messages</li>
+                    <li><strong>Reception & Lobby Displays:</strong> Welcome visitors with company information and wayfinding</li>
+                    <li><strong>Emergency Alert System:</strong> Immediately broadcast safety instructions during emergencies</li>
+                    <li><strong>Employee Recognition:</strong> Highlight employee achievements and birthdays</li>
+                    <li><strong>Digital Bulletin Boards:</strong> Replace physical notice boards with dynamic digital displays</li>
+                </ul>
+                
+                <p><strong>SEO Keywords:</strong> corporate digital signage, office communications software, meeting room display system, corporate lobby signage, employee engagement software, workplace digital signage</p>
+                
+                <div style="text-align: center; margin-top: 30px;">
+                    <a href="#download" class="btn-primary">
+                        <i class="fas fa-download"></i> Download Corporate Edition Trial
+                    </a>
+                </div>
+            `;
+            
+            // Healthcare content
+            const healthcareContent = `
+                <h3>Healthcare Digital Signage & Communication</h3>
+                <p>Improve patient experience, display important information, and streamline communications in hospitals, clinics, and healthcare facilities.</p>
+                
+                <ul>
+                    <li><strong>Patient Information Displays:</strong> Show wait times, doctor availability, and health information</li>
+                    <li><strong>Wayfinding Systems:</strong> Help patients navigate complex healthcare facilities</li>
+                    <li><strong>Health Education:</strong> Display educational videos and health tips in waiting areas</li>
+                    <li><strong>Emergency Broadcast:</strong> Immediately alert staff and patients during emergencies</li>
+                    <li><strong>Staff Communications:</strong> Display shift information, announcements, and training materials</li>
+                    <li><strong>Digital Donor Walls:</strong> Recognize donors and display fundraising information</li>
+                </ul>
+                
+                <p><strong>SEO Keywords:</strong> healthcare digital signage, hospital communication system, patient information display, medical facility signage, healthcare wayfinding, hospital TV system</p>
+                
+                <div style="text-align: center; margin-top: 30px;">
+                    <a href="#download" class="btn-primary">
+                        <i class="fas fa-download"></i> Download Healthcare Edition Trial
+                    </a>
+                </div>
+            `;
+            
+            tabs.forEach(tab => {
+                tab.addEventListener('click', function() {
+                    // Remove active class from all tabs
+                    tabs.forEach(t => t.classList.remove('active'));
+                    
+                    // Add active class to clicked tab
+                    this.classList.add('active');
+                    
+                    // Update content based on tab
+                    const tabType = this.getAttribute('data-tab');
+                    
+                    switch(tabType) {
+                        case 'education':
+                            educationContent.innerHTML = educationContent;
+                            break;
+                        case 'retail':
+                            educationContent.innerHTML = retailContent;
+                            break;
+                        case 'corporate':
+                            educationContent.innerHTML = corporateContent;
+                            break;
+                        case 'healthcare':
+                            educationContent.innerHTML = healthcareContent;
+                            break;
+                    }
+                });
+            });
+            
+            // Smooth scrolling for anchor links
+            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+                anchor.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    
+                    const targetId = this.getAttribute('href');
+                    if(targetId === '#') return;
+                    
+                    const targetElement = document.querySelector(targetId);
+                    if(targetElement) {
+                        window.scrollTo({
+                            top: targetElement.offsetTop - 100,
+                            behavior: 'smooth'
+                        });
+                        
+                        // Update URL without page jump
+                        history.pushState(null, null, targetId);
+                    }
+                });
+            });
+            
+            // Mobile menu toggle (simplified for this example)
+            const nav = document.querySelector('nav');
+            const headerCta = document.querySelector('.header-cta');
+            
+            // For mobile responsiveness (basic)
+            function handleMobileMenu() {
+                if (window.innerWidth <= 768) {
+                    // Simplified mobile handling
+                    nav.style.display = 'block';
+                    headerCta.style.flexDirection = 'column';
+                } else {
+                    nav.style.display = 'flex';
+                    headerCta.style.flexDirection = 'row';
+                }
+            }
+            
+            window.addEventListener('resize', handleMobileMenu);
+            handleMobileMenu(); // Initial call
+        });
+    </script>
+</body>
+</html>
