@@ -1,0 +1,28 @@
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://www.smartschedule365.com/sitemap.xml
+
+# Allow all search engines to crawl everything
+# Disallow: /admin/
+# Disallow: /private/
+
+# Crawl-delay for bots (optional)
+# Crawl-delay: 10
+
+# Googlebot specific
+User-agent: Googlebot
+Allow: /
+
+# Bingbot specific
+User-agent: Bingbot
+Allow: /
+
+# Allow images to be indexed
+User-agent: Googlebot-Image
+Allow: /images/
+
+# Allow video content
+User-agent: Googlebot-Video
+Allow: /
