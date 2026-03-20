@@ -135,9 +135,45 @@
         "priceCurrency": "USD",
         "priceValidUntil": "2026-12-31",
         "availability": "https://schema.org/InStock",
+        "itemCondition": "https://schema.org/NewCondition",
         "seller": {
           "@type": "Organization",
           "name": "PlayScheduler"
+        },
+        "shippingDetails": {
+          "@type": "OfferShippingDetails",
+          "shippingRate": {
+            "@type": "MonetaryAmount",
+            "value": "0",
+            "currency": "USD"
+          },
+          "shippingDestination": {
+            "@type": "DefinedRegion",
+            "addressCountry": "US"
+          },
+          "deliveryTime": {
+            "@type": "ShippingDeliveryTime",
+            "handlingTime": {
+              "@type": "QuantitativeValue",
+              "minValue": 0,
+              "maxValue": 1,
+              "unitCode": "DAY"
+            },
+            "transitTime": {
+              "@type": "QuantitativeValue",
+              "minValue": 0,
+              "maxValue": 1,
+              "unitCode": "DAY"
+            }
+          }
+        },
+        "hasMerchantReturnPolicy": {
+          "@type": "MerchantReturnPolicy",
+          "returnPolicyCategory": "https://schema.org/MerchantReturnFiniteReturnWindow",
+          "merchantReturnDays": 7,
+          "returnMethod": "https://schema.org/ReturnByMail",
+          "returnFees": "https://schema.org/FreeReturn",
+          "refundType": "https://schema.org/FullRefund"
         }
       },
       "aggregateRating": {
